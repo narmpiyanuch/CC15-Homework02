@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        main {
+            position: relative;
+            margin: auto;
+            padding: 10px;
+
+        }
+        .card {
+            border: solid lightgray;
+            width: 200px;
+            height: 260px;
+            border-radius: 5px;
+            margin: 5px;
+            overflow: hidden;
+        }
+        .card img{
+            width: 100%;
+            padding-top: 15px;
+        }
+        hr {
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 10px;
+        }
+        .container p {
+            display: inline;
+            padding: 10px;
+            font: caption;
+            font-size: larger;
+        }
+        .circle {
+            position: absolute;
+            right: 1365px;
+            bottom: 775px;
+            font-size: 22px;
+            width: 40px;
+            height: 40px;
+            background-color: red;
+            border-radius: 50%;
+            color:white;
+            text-align: center;
+            box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.21);
+        }
+        .circle p {
+            margin: auto;
+            padding: 8px 0px;
+        }
+        .x img {
+            position: absolute;
+            right: 1545px;
+            bottom: 770px;
+            width: 40px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="card">
+            <img src="./human-man-10.svg" alt="pic">
+            <hr />
+            <div class="container">
+                <p>A.Rudiger</p></div>
+        </div>
+    </main>
+    <div class="circle">
+        <p>9</p>
+    </div>
+    <div class="x">
+        <img src="./cross-small-svgrepo-com.svg" alt="x">
+    </div>
+</body>
+</html>

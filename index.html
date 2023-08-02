@@ -9,18 +9,18 @@
             box-sizing: border-box;
         }
         main {
-            position: relative;
             margin: auto;
             padding: 10px;
 
         }
         .card {
+            position: relative;
             border: solid lightgray;
             width: 200px;
             height: 260px;
             border-radius: 5px;
             margin: 5px;
-            overflow: hidden;
+            /* overflow: hidden; */
         }
         .card img{
             width: 100%;
@@ -41,12 +41,12 @@
         }
         .circle {
             position: absolute;
-            right: 1365px;
-            bottom: 775px;
+            left: 165px;
+            top: -8px;
             font-size: 22px;
             width: 40px;
             height: 40px;
-            z-index: 100;
+            z-index: 99;
             background-color: red;
             border-radius: 50%;
             color:white;
@@ -59,8 +59,8 @@
         }
         .x img {
             position: absolute;
-            right: 1545px;
-            bottom: 770px;
+            left: -5px;
+            top: -20px;
             width: 40px;
             z-index: 100;
         }
@@ -72,14 +72,15 @@
             <img src="./human-man-10.svg" alt="pic">
             <hr />
             <div class="container">
-                <p>A.Rudiger</p></div>
+                <p>A.Rudiger</p>
+            </div>
+            <div class="circle">
+                    <p>9</p>
+            </div>
+            <div class="x">
+                    <img src="./cross-small-svgrepo-com.svg" alt="x">
+            </div>
         </div>
     </main>
-    <div class="circle">
-        <p>9</p>
-    </div>
-    <div class="x">
-        <img src="./cross-small-svgrepo-com.svg" alt="x">
-    </div>
 </body>
 </html>
